@@ -1,0 +1,23 @@
+{
+  "name": "jk-folio-16",
+  "authors": [
+    "jonokane <jono@jonokane.com>"
+  ],
+  "description": "portfolio 2016",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "grunt": "^0.4.5"
+  }
+}
