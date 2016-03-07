@@ -3,6 +3,7 @@
 
 // //basic stuff
 body{
+	font-family: "lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 p{
 	color:$gray-dark;
@@ -39,12 +40,28 @@ a:hover{
 	color:$gray-med-med;
 }
 
+.centered{
+	text-align:center;
+}
+
+.nav.nav-center {
+    margin:0;
+    float:none;
+}
+.navbar-inner{
+    text-align:center;
+}
+
 //headings
 h3, h4, h5, h6{
 	color:$gray-dark;
 }
 .fancy {
   font-family: "lust-script";
+}
+
+h1.fancy{
+	font-size:1rem;
 }
 
   h4.fancy, h3.fancy{

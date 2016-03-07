@@ -4558,6 +4558,9 @@ a.bg-danger:focus, a.bg-danger:hover {
   .hidden-print {
     display: none !important; } }
 
+body {
+  font-family: "lato","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
 p {
   color: #2c2b32; }
 
@@ -4586,11 +4589,24 @@ a:hover {
   margin: 0 10px;
   color: #c7c7c7; }
 
+.centered {
+  text-align: center; }
+
+.nav.nav-center {
+  margin: 0;
+  float: none; }
+
+.navbar-inner {
+  text-align: center; }
+
 h3, h4, h5, h6 {
   color: #2c2b32; }
 
 .fancy {
   font-family: "lust-script"; }
+
+h1.fancy {
+  font-size: 1rem; }
 
 .hero h2 {
   text-align: center;
