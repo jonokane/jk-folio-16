@@ -4591,3 +4591,367 @@ h3, h4, h5, h6 {
 
 .fancy {
   font-family: "lust-script"; }
+
+.hero h2 {
+  text-align: center;
+  margin: 2% auto;
+  font-size: 5rem;
+  color: #efefef; }
+
+h3 {
+  margin: 2% auto;
+  text-align: center;
+  font-size: 40px; }
+
+h4 {
+  margin: 2% auto;
+  text-align: center;
+  font-size: 40px; }
+
+.item h5 {
+  text-align: center;
+  font-weight: 200;
+  margin-top: 1rem; }
+
+.small {
+  font-size: 80%; }
+
+.caps {
+  text-transform: uppercase; }
+
+.top-bar {
+  height: 2.85rem; }
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: none; }
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  color: #4eecb6; }
+
+.top-bar-section ul li {
+  background: none; }
+
+.top-bar-section ul li a.soc-link {
+  line-height: 2.8rem !important;
+  margin: 0 !important;
+  font-size: 24px; }
+
+.top-bar.expanded {
+  background: rgba(44, 43, 50, 0.9); }
+
+.main-bg {
+  background: url("../img/bg/bg-hero.jpg");
+  background-size: cover; }
+
+.hero {
+  padding: 2% 4%;
+  background: rgba(247, 250, 253, 0.2);
+  margin: 4%;
+  color: #efefef; }
+  .hero p {
+    font-weight: 200;
+    color: #efefef; }
+
+.masonry {
+  margin: 10px auto; }
+
+.masonry .item {
+  width: 240px;
+  min-height: 194px;
+  margin: 20px;
+  background: #fff;
+  border: 1px solid #efefef;
+  padding: 10px; }
+
+.item {
+  transition: all .2s ease-out; }
+  .item .thumb {
+    width: 220px;
+    height: 150px;
+    display: block;
+    background-size: 220%;
+    background-repeat: no-repeat;
+    background-position: 10% 0%;
+    transition: all .3s ease-out;
+    border: 1px solid #efefef;
+    border-radius: 4px; }
+
+.item:hover {
+  transform: scale(1.2);
+  border-color: #4eecb6;
+  cursor: pointer; }
+  .item:hover .thumb {
+    background-size: 140%;
+    cursor: pointer; }
+
+.modal-cta {
+  cursor: pointer; }
+  .modal-cta :hover {
+    cursor: pointer; }
+
+.slick-slide
+img {
+  width: 100%; }
+
+.folio-intuit .thumb {
+  background-position: 22% 5%; }
+
+.folio-intuit .item:hover .thumb {
+  background-position: 60% 12%;
+  background-size: 120%; }
+
+.folio-ybubbles .thumb {
+  background-position: 50% 0%; }
+
+.folio-telenav .thumb {
+  background-position: 0% 0%;
+  background-size: 210%; }
+
+.folio-saratoga-speed .thumb {
+  background-position: 50% 0%;
+  background-size: 160%; }
+
+.folio-huddleup .thumb {
+  background-position: 17% 0%; }
+
+.folio-huddleup .item:hover .thumb {
+  background-position: 32% 0%; }
+
+button.btn.ghost, a.btn.ghost {
+  color: #4edfec;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #2c2b32;
+  padding: 20px;
+  margin: 10px 0px;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem; }
+
+button.btn.ghost:hover, a.btn.ghost:hover {
+  transform: scale(1.1);
+  color: #4eecb6;
+  background: rgba(240, 248, 255, 0.9);
+  -webkit-animation: grow 0.3s cubic-bezier(0.855, 0.12, 0.34, 0.85) 1, pulse 4s ease-out infinite alternate-reverse; }
+
+@-webkit-keyframes grow {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+@-webkit-keyframes pulse {
+  0% {
+    background: #fff; }
+  50% {
+    background: rgba(240, 248, 255, 0.9); }
+  100% {
+    background: rgba(226, 255, 249, 0.9); } }
+
+.btn-mini-ghost {
+  font-weight: 200;
+  padding: 4px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+  display: inline-block; }
+  .btn-mini-ghost .ss-icon {
+    font-weight: 700; }
+
+.ss-icon {
+  margin-right: 4px;
+  position: relative;
+  top: 2px; }
+
+.modal-folio-content h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  width: 100%;
+  border-bottom: 1px solid #c7c7c7;
+  margin-bottom: 1rem; }
+
+.modal-folio-content dt {
+  width: 100%;
+  border-bottom: 1px solid #efefef; }
+
+.modal-folio-content dt:not:first-child {
+  margin-top: 1rem; }
+
+.folio-slider {
+  list-style: none !important; }
+  .folio-slider img {
+    padding: 10px;
+    border: 1px solid #efefef; }
+  .folio-slider .caption {
+    font-size: .7rem;
+    color: #666; }
+
+.slider-nav li {
+  margin: 10px;
+  transition: all .3s ease-out;
+  border: 3px solid #666;
+  padding: 6px; }
+  .slider-nav li img {
+    width: auto;
+    height: 80px;
+    max-height: 80px;
+    text-align: center;
+    margin: auto; }
+
+.slider-nav li:hover {
+  -webkit-animation: grow 0.3s cubic-bezier(0.855, 0.12, 0.34, 0.85) 1, pulse 4s ease-out infinite alternate-reverse;
+  border-color: #4eecb6;
+  transform: scale(1.1);
+  cursor: pointer; }
+
+ul.skills {
+  margin: 0;
+  float: left;
+  margin-bottom: 0.3rem; }
+
+.skills li {
+  float: left;
+  border: 1px solid #c7c7c7;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 4px 8px;
+  font-size: .7rem;
+  list-style: none; }
+
+dl dt {
+  clear: both; }
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.parallax__layer--base {
+  transform: translateZ(0); }
+
+.parallax__layer--back {
+  transform: translateZ(-1px); }
+
+.contact-form textarea, .contact-form input {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.6); }
+
+.successMessage {
+  text-align: center; }
+
+::-webkit-input-placeholder {
+  color: #c7c7c7; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #c7c7c7; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c7c7c7; }
+
+:-ms-input-placeholder {
+  color: #c7c7c7; }
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s; }
+
+.fade-in.one {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.fade-in.two {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+.fade-in.three {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.fade-in.four {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s; }
+
+footer {
+  border-top: 1px solid #4edfec;
+  border-bottom: 1px solid #4edfec;
+  font-weight: 200;
+  padding-top: 20px;
+  color: #efefef;
+  background: #2c2b32; }
+  footer h6 {
+    color: #efefef;
+    font-weight: 200;
+    text-transform: uppercase;
+    border-bottom: 1px solid #efefef;
+    width: 100%; }
+  footer p {
+    font-weight: 200;
+    color: #efefef; }
+  footer ul {
+    margin: 0; }
+  footer ul li {
+    list-style-type: none; }
+  footer a {
+    color: #4edfec; }
+  footer a:hover {
+    color: #4eecb6; }
+  footer .ss-icon {
+    position: relative;
+    top: 3px; }
+  footer .small.caps {
+    color: #c7c7c7; }
+  footer .site-nav .ss-icon {
+    margin-right: 4px;
+    top: 2px; }
+  footer .colophon p {
+    margin-bottom: 0;
+    font-size: .8rem; }
+  footer .colophon ul li {
+    margin-left: 1rem;
+    font-size: .8rem; }
