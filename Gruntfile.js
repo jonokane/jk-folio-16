@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'css/bootstrap.css': 'bower_components/bootstrap/scss/bootstrap.scss'
+          'css/styles.css': 'bower_components/bootstrap/scss/bootstrap.scss'
         }
       },
       options: {

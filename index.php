@@ -48,16 +48,125 @@
 </nav>
 
 
-
-
-
 <div class="container">
-    <h1>Hi i'm a nerd!</h1>
-    <p></p>
+
+    <section class="hero-intro">
+        <div class="row">
+            <div class="col-md-12" id="me">
+                <div class="hero fade-in one">
+                    <h2 class="fancy">Hi There!</h2>
+                    <p>I'm <a href="http://about.me/jonokane" target="_blank">Jono Kane</a>, a San Francisco-based UX professional. Specifically, I'm a full-stack product designer, who enjoys solving product and interaction design challenges, as well as prototyping and building front-ends for mobile, web, and tablet.</p>
+                    <p>I have a passion for creating exciting and unique media experiences on all screens. My career is primarily focused on mobile-native, mobile-web and desktop experiences.
+                    </p>
+                    <p>I also produce <a href="https://soundcloud.com/nokamusic" target="_blank">electronic music</a> and take <a href="http://flickr.com/photos/nokapixel" target="_blank">pictures</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-start">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="fancy fade-in one">Looking for a great product design lead?</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <a href="#view-work" class="btn ghost smoothscroll two">Check Out My Work</a>
+            </div>
+            <div class="col-md-5">
+                <a href="#contact" class="btn ghost smoothscroll three">Hit Me Up</a>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+    </section>
+
+    <section class="content-area">
+      <div class="row">
+          <div class="col-md-12 columns" id="view-work">
+              <h3 class="fancy">Work</h3>
+              <div class="row">
+                  <div class="masonry js-masonry" id="folio-grid">
+                      <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
+                              <h5>Fluence.io (Website)</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box-2" class="modal-cta folio-fluence-app">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/fluence-app-thumb.jpg')"></div>
+                              <h5>Fluence.io (Web App)</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box-3" class="modal-cta folio-shift">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/shift-thumb.jpg')"></div>
+                              <h5>Shift</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-saratoga-speed">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/saratoga-speed-thumb.jpg')"></div>
+                              <h5>Saratoga Speed</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-telenav">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/telenav-thumb.jpg')"></div>
+                              <h5>Telenav</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-huddleup">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/huddleup-thumb.jpg')"></div>
+                              <h5>HuddleUp</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-breeze">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/breeze-wire-thumb.jpg')"></div>
+                              <h5>Breeze</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-intuit">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/intuit-thumb.jpg')"></div>
+                              <h5>Intuit</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-ybubbles">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/bubbles-iphone.jpg')"></div>
+                              <h5>Yahoo! Bubbles</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-thingsly">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/thingsly-thumb.jpg')"></div>
+                              <h5>Thingsly</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-ydn">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/ydn-thumb.jpg')"></div>
+                              <h5>Yahoo! YDN</h5>
+                          </div>
+                      </a>
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-ydpl">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/ydpl-thumb.jpg')"></div>
+                              <h5>Yahoo! Design Patterns</h5>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
 </div>
-
-
-
 
 
 
