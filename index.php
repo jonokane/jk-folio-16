@@ -63,6 +63,7 @@
             </div>
         </div>
     </section>
+</div>
 
     <section class="main-start">
         <div class="row">
@@ -83,6 +84,7 @@
     </section>
 
     <section class="content-area">
+    <div class="container">
       <div class="row">
           <div class="col-md-12 columns" id="view-work">
               <h3 class="fancy">Work</h3>
@@ -164,9 +166,52 @@
               </div>
           </div>
       </div>
+      </div>
     </section>
 
-</div>
+        <section class="content-area">
+            <div class="row">
+                <div class="large-12 columns" id="contact">
+                    <h3 class="fancy">Contact</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="medium-10 medium-offset-1 columns">
+                    <p class="text-center">Say hello! <span style="font-size:1.5rem;line-height:1.5rem;">👋</span> All fields are required.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="medium-10 medium-offset-1 columns contact-form">
+                    <div id="contactMessage"></div>
+                    <form name="contact_form" id="JqAjaxForm">
+                        <div class="row">
+                            <div class="medium-6 columns">
+                                <label>Your Name
+                                    <input type="text" placeholder="What's your name?" required name="name" id="name">
+                                </label>
+                            </div>
+                            <div class="medium-6 columns">
+                                <label>Email
+                                    <input type="email" placeholder="And what's your email?" required name="email"id="email">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="medium-12 columns">
+                                <label>Message
+                                    <textarea placeholder="So, what's up?" rows="5" required name="message" id="message"></textarea>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="medium-10 medium-offset-1 columns">
+                                <button class="btn ghost" value="submit">Say Hello</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -178,8 +223,7 @@
 
 
 
-
-<!-- <footer>
+<footer>
             <div class="row">
                 <div class="large-2 columns">
                     <h6>jonokane.com</h6>
@@ -217,8 +261,9 @@
                     <p class="small caps">All work &copy;2015 unless otherwise noted</p>
                 </div>
             </div>
-        </footer> -->    
-        </div>
+        </footer>
+
+
     <!-- end of .main-bg -->
     <div id="modal-box" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div>
 
