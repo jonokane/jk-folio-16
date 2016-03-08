@@ -219,14 +219,6 @@
 
 
 
-
-
-
-
-
-
-
-
 <footer>
 <div class="container">
               <div class="row">
@@ -270,44 +262,21 @@
 </footer>
 
 
-    <!-- end of .main-bg -->
     <div id="modal-box" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-  <!-- JavaScript: placed at the end of the document so the pages load faster -->
-  <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
+  <script src="bower_components/tether/dist/js/tether.min.js"></script>
   <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 
-
-
-
-
-
-
-
-
-    <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
     <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-    <!-- <script src="bower_components/foundation/js/foundation.min.js"></script> -->
-    <!-- <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script> -->
+
     <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
-    <script src="bower_components/slick.js/slick/slick.min.js"></script>
+    <script src="bower_components/slick/dist/slick.min.js"></script>
+    
     <script src="js/ss-social.js"></script>
     <script src="js/ss-glyphish-outlined.js"></script>
     <script src="js/app.js"></script>
