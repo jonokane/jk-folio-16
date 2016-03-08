@@ -71,6 +71,7 @@
                 <h4 class="fancy fade-in one">Looking for a great product design lead?</h4>
             </div>
         </div>
+        <div class="container">
         <div class="row">
             <div class="col-md-5 col-md-offset-1">
                 <a href="#view-work" class="btn ghost smoothscroll two">Check Out My Work</a>
@@ -80,6 +81,7 @@
             </div>
             <div class="col-md-1">
             </div>
+        </div>
         </div>
     </section>
 
@@ -170,6 +172,7 @@
     </section>
 
         <section class="content-area">
+        <div class="container">
             <div class="row">
                 <div class="large-12 columns" id="contact">
                     <h3 class="fancy">Contact</h3>
@@ -181,35 +184,36 @@
                 </div>
             </div>
             <div class="row">
-                <div class="medium-10 medium-offset-1 columns contact-form">
+                <div class="col-md-10 col-md-offset-1 contact-form">
                     <div id="contactMessage"></div>
                     <form name="contact_form" id="JqAjaxForm">
                         <div class="row">
-                            <div class="medium-6 columns">
+                            <div class="col-md-6">
                                 <label>Your Name
                                     <input type="text" placeholder="What's your name?" required name="name" id="name">
                                 </label>
                             </div>
-                            <div class="medium-6 columns">
+                            <div class="col-md-6">
                                 <label>Email
                                     <input type="email" placeholder="And what's your email?" required name="email"id="email">
                                 </label>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="medium-12 columns">
+                            <div class="col-md-12">
                                 <label>Message
                                     <textarea placeholder="So, what's up?" rows="5" required name="message" id="message"></textarea>
                                 </label>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="medium-10 medium-offset-1 columns">
+                            <div class="col-md-4 col-md-offset-4">
                                 <button class="btn ghost" value="submit">Say Hello</button>
                             </div>
                         </div>
                     </form>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -224,8 +228,9 @@
 
 
 <footer>
-            <div class="row">
-                <div class="large-2 columns">
+<div class="container">
+              <div class="row">
+                <div class="col-md-2">
                     <h6>jonokane.com</h6>
                     <ul class="site-nav">
                         <li><a href="#me" class="smoothscroll"><span class="ss-icon ss-glyphish-outline">smile</span>Me</a></li>
@@ -233,7 +238,7 @@
                         <li><a href="#contact" class="smoothscroll"><span class="ss-icon ss-glyphish-outline">send</span>Contact</a></li>
                     </ul>
                 </div>
-                <div class="large-6 columns colophon">
+                <div class="col-md-6 colophon">
                     <h6>Colophon</h6>
                     <p>This site was hand-built with love and fully <a href="https://github.com/jonokane/jk-folio-15">open-source</a>, in case you're interested in seeing how I built it. I used the following fantastic tools and frameworks:</p>
                     <ul>
@@ -246,7 +251,7 @@
                         <li><a href="https://github.com/" target="_blank">Github</a></li>
                     </ul>
                 </div>
-                <div class="large-4 columns">
+                <div class="col-md-4">
                     <h6>Social</h6>
                     <ul>
                         <li><a href="https://www.linkedin.com/in/jonokane" target="_blank" class="soc-link"><span class="ss-icon ss-social-circle">linkedin</span> /jonokane</a></li>
@@ -257,11 +262,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="medium-12 columns text-center">
+                <div class="col-md-12 text-center">
                     <p class="small caps">All work &copy;2015 unless otherwise noted</p>
                 </div>
             </div>
-        </footer>
+  </div>
+</footer>
 
 
     <!-- end of .main-bg -->
