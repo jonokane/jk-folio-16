@@ -178,6 +178,50 @@
                     <h3 class="fancy">Contact</h3>
                 </div>
             </div>
+
+
+
+
+
+
+
+<form>
+<div class="form-inline">
+  <fieldset class="form-group">
+    <label for="formGroupExampleInput">What's your name?</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="formGroupExampleInput2">And what's your email?</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+  </fieldset>
+  </div>
+  <div class="form-group">
+    <label>Message
+        <textarea placeholder="So, what's up?" rows="5" required name="message" id="message"></textarea>
+    </label>
+  </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--             
             <div class="row">
                 <div class="medium-10 medium-offset-1 columns">
                     <p class="text-center">Say hello! <span style="font-size:1.5rem;line-height:1.5rem;">👋</span> All fields are required.</p>
@@ -213,7 +257,7 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> -->
             </div>
         </section>
 
@@ -255,7 +299,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p class="small caps">All work &copy;2015 unless otherwise noted</p>
+                    <p class="small caps centered">All work &copy;2015 unless otherwise noted</p>
                 </div>
             </div>
   </div>
@@ -268,18 +312,18 @@
 
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="bower_components/tether/dist/js/tether.min.js"></script>
-  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="bower_components/tether/dist/js/tether.min.js"></script>
+<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 
-    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
 
-    <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
-    <script src="bower_components/slick/dist/slick.min.js"></script>
-    
-    <script src="js/ss-social.js"></script>
-    <script src="js/ss-glyphish-outlined.js"></script>
-    <script src="js/app.js"></script>
+<script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
+<script src="bower_components/slick/dist/slick.min.js"></script>
+
+<script src="js/ss-social.js"></script>
+<script src="js/ss-glyphish-outlined.js"></script>
+<script src="js/app.js"></script>
 
 <!-- goog analytics -->
 <script>

@@ -1,5 +1,15 @@
 // //jk custom scss
 
+//some useful mixins:
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 
 // //basic stuff
 body{
@@ -16,6 +26,15 @@ a{
 a:hover{
 		color:$highlight-green;
 	};
+
+
+
+.text-center {
+  @include center-block;
+}
+.centered{
+	text-align:middle;
+}
 
 //layout stuff
 .content-area{

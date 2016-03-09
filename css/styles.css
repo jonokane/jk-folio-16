@@ -4558,6 +4558,11 @@ a.bg-danger:focus, a.bg-danger:hover {
   .hidden-print {
     display: none !important; } }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 body {
   font-family: "lato","Helvetica Neue",Helvetica,Arial,sans-serif; }
 
@@ -4570,6 +4575,14 @@ a {
 
 a:hover {
   color: #4eecb6; }
+
+.text-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.centered {
+  text-align: middle; }
 
 .content-area {
   border-top: 1px solid #4edfec;
