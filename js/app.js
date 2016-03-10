@@ -1,5 +1,3 @@
-$(document).bootstrap({bindings: 'events'});
-
 $(document).ready(function() {
 
     //masonry
@@ -69,83 +67,91 @@ $(document).ready(function() {
     });
 
     //folio items
-    $('.folio-fluence-marketing').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-fluence-marketing.html',
-            multiple_opened: true
-        });
-    });
+    // $('.folio-fluence-marketing').click(function() {
+    //     $('#modal-box').modal('reveal', 'open', {
+    //         url: 'folio-content/folio-fluence-marketing.html',
+    //         multiple_opened: true
+    //     });
+    // });
 
-    $('.secondary-modal').click(function(){
+    // $('.secondary-modal').click(function(){
         
-    })
+    // })
 
-    $('.folio-fluence-app').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-fluence-app.html',
-            multiple_opened: true
-        });
-    });
+    // $('.folio-fluence-app').click(function() {
+    //     $('#modal-box').modal('reveal', 'open', {
+    //         url: 'folio-content/folio-fluence-app.html',
+    //         multiple_opened: true
+    //     });
+    // });
 
-    $('.folio-shift').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-shift.html',
-        });
-    });
+    // $('.folio-shift').click(function() {
+    //     $('#modal-box').modal('open', {
+    //         url: 'folio-content/folio-shift.html',
+    //     });
+    // });
 
-    $('.folio-saratoga-speed').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-saratoga-speed.html',
-        });
-    });
+$('.folio-shift').click(function() {
+    $('#modal-box').modal()   
+    // $('#modal-box').modal({
+    //     // show: false,
+    //     remote: 'folio-content/folio-shift.html'
+    // });
+}); 
 
-    $('.folio-telenav').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-telenav.html',
-        });
-    });
+    // $('.folio-saratoga-speed').click(function() {
+    //     $('#modal-box').modal('reveal', 'open', {
+    //         url: 'folio-content/folio-saratoga-speed.html',
+    //     });
+    // });
 
-    $('.folio-huddleup').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-huddleup.html',
-        });
-    });
+    // $('.folio-telenav').click(function() {
+    //     $('#modal-box').modal('reveal', 'open', {
+    //         url: 'folio-content/folio-telenav.html',
+    //     });
+    // });
 
-    $('.folio-breeze').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-breeze.html',
-        });
-    });
+    // $('.folio-huddleup').click(function() {
+    //     $('#modal-box').modal('reveal', 'open', {
+    //         url: 'folio-content/folio-huddleup.html',
+    //     });
+    // });
 
-    $('.folio-intuit').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-intuit.html',
-        });
-    });
+    // $('.folio-breeze').click(function() {
+    //     $('#modal-box').modal('reveal', 'open', {
+    //         url: 'folio-content/folio-breeze.html',
+    //     });
+    // });
 
-    $('.folio-ybubbles').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-ybubbles.html',
-        });
-    });
+    // $('.folio-intuit').click(function() {
+    //     $('#modal-box').modal('reveal', 'open', {
+    //         url: 'folio-content/folio-intuit.html',
+    //     });
+    // });
 
-    $('.folio-thingsly').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-thingsly.html',
-        });
-    });
+    // $('.folio-ybubbles').click(function() {
+    //     $('#modal-box').modal('reveal', 'open', {
+    //         url: 'folio-content/folio-ybubbles.html',
+    //     });
+    // });
 
-    $('.folio-ydn').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-ydn.html',
-        });
-    });
+    // $('.folio-thingsly').click(function() {
+    //     $('#modal-box').bootstrap('reveal', 'open', {
+    //         url: 'folio-content/folio-thingsly.html',
+    //     });
+    // });
 
-    $('.folio-ydpl').click(function() {
-        $('#modal-box').bootstrap('reveal', 'open', {
-            url: 'folio-content/folio-ydpl.html',
-        });
-    });
+    // $('.folio-ydn').click(function() {
+    //     $('#modal-box').bootstrap('reveal', 'open', {
+    //         url: 'folio-content/folio-ydn.html',
+    //     });
+    // });
+
+    // $('.folio-ydpl').click(function() {
+    //     $('#modal-box').bootstrap('reveal', 'open', {
+    //         url: 'folio-content/folio-ydpl.html',
+    //     });
+    // });
 
 
 // jkcontact

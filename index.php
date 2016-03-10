@@ -92,6 +92,35 @@
               <h3 class="fancy">Work</h3>
               <div class="row">
                   <div class="masonry js-masonry" id="folio-grid">
+
+<!--                       <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
+                              <h5>8tracks</h5>
+                          </div>
+                      </a> -->
+
+                      <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
+                              <h5>8tracks - </h5>
+                          </div>
+                      </a>
+
+                      <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
+                              <h5>8tracks - FTUX</h5>
+                          </div>
+                      </a>
+
+                      <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                          <div class="item">
+                              <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
+                              <h5>Cinematiq (Web App)</h5>
+                          </div>
+                      </a>
+
                       <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
                           <div class="item">
                               <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
